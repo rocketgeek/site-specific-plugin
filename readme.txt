@@ -29,6 +29,8 @@ Think of this plugin as an alternative to adding code snippets to the functions.
 * Add any jQuery snippets to `custom/custom.js`. This file is found in this plugin.
 * Activate the plugin.
 
+If using CSS and/or PHP, make sure to uncomment the `wp_enqueue_scripts` actions in the main file.
+
 == Frequently Asked Questions ==
 
 = Isn't this what child themes are for? =

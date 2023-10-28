@@ -3,11 +3,11 @@
  * Plugin Name:       My Site Specific Custom Code
  * Description:       A handy little plugin to contain your site's customisation snippets.
  * Plugin URI:        http://github.com/rocketgeek/site-specific-plugin
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            RocketGeek
  * Author URI:        https://rocketgeek.com/
  * Requires at least: 3.0.0
- * Tested up to:      5.4
+ * Tested up to:      6.1
  *
  * @package    My_Site_Customizations
  */
@@ -38,8 +38,8 @@ final class My_Site_Customizations {
 	 * Setup all the things
 	 */
 	public function enqueue() {
-		add_action( 'wp_enqueue_scripts', array( $this, 'custom_css' ), 999 );
-		add_action( 'wp_enqueue_scripts', array( $this, 'custom_js' ) );
+		// add_action( 'wp_enqueue_scripts', array( $this, 'custom_css' ), 999 );
+		// add_action( 'wp_enqueue_scripts', array( $this, 'custom_js' ) );
 	}
 
 	/**
